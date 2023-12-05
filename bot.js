@@ -1,14 +1,14 @@
 const mineflayer = require("mineflayer");
 
 var settings = {
-    username: "TestMachine",
+    username: "OmegaJackson3000",
     host: "localhost",
 };
 
 const bot = mineflayer.createBot(settings);
 
 bot.once("spawn", ()=>{
-    bot.chat("Hello everyone!");
+    bot.chat("Hola a todos!");
 });
 
 bot.on("move", ()=>{
